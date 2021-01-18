@@ -1,0 +1,41 @@
+<%- include("header"); -%>
+
+<div class="contaier-fluid ">
+	<div class="box ">
+	 	<h2>PoemAPI</h2>
+	    <hr>
+	    <p> PoemAPI is a REST API that serves uniformly and well formatted poems . It can be used without any API token,   membership, registration or payment.
+	    It supports a filters that can be applied to get just the right poem you need based on poem name.
+	    The usage is very simple and similar to other RESTful APIs and requires only basic knowledge of HTTP requests and JSON.
+	    </p>
+	</div>
+	<div class="box ">
+		<h3>Getting Started:</h3>
+		<hr>
+		<p>There are 4 main things in API endpoints, path, parameter and authentication. PoemAPI doesn't require any authentication to use it. </p>
+		
+		<div class="codediv"> 
+			<p><b> ENDPOINT:</b>An endpoint is an access point to send the HTTP requests to and get your response.</p>
+			<p> <b>Endpoint: </b> <span class="codelike">http://localhost:3000 </span>  </p>
+
+		</div> 
+		<div class="codediv">
+			<p><b>PATH:</b> This will give all the poems present.</p>
+			<p><b>Path: </b> <span class="codelike">http://localhost:3000/poems </span></p>
+			<center><img class="exampleimg" src="images/allpoem.png" alt="allpoemexample" ></center>
+		</div>
+		<div class="codediv"> 
+			<p><b>PARAMETER</b>This will give give you poem based on poem name you give. Make sure that poem name are written as it would appear in wekipedia. For example in this the poem name we entered is "All the world's a stage".</p>
+			<p><b>Parameter: </b>  <span class="codelike">http://localhost:3000/poems/All the world's a stage </span></p>
+			<center><img class="exampleimg" src="images/onepoem.png" alt="poemexample" ></center>
+		</div>
+	   
+	</div>
+	<div class="box">
+		<h3>Post Here</h3>
+		<hr></hr>
+		<p>If you like to contribute your favourite poem and see others using it please click the button below, make sure that poem name are written as it would appear in wekipedia.  </p>
+  		<a class="nav-link" href="/postpoemr"><button type="button" class="mmargin btn btn-dark  " ><i class="fas fa-user-plus"></i> post poem</button></a>
+  	</div>
+<%- include("footer"); -%>
+

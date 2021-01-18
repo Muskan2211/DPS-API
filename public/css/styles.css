@@ -1,0 +1,108 @@
+
+body{
+  background: #e8eae6;
+  background-image: url("https://www.transparenttextures.com/patterns/food.png");
+}
+
+a:link {color:grey;}
+a:visited {color:black;}
+a:hover   {color:#A683E3;}
+
+
+/* heading of the page */
+.headers {
+  background-color: #46b3e6;
+  margin: auto -16px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  padding-right: 3.25rem;
+  padding-left: 3.25rem;
+}
+
+.heading {
+  color: white;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  padding-left: 3.25rem;
+}
+
+
+/* container*/
+.box {
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+}
+
+
+/*poem*/
+
+.codelike{
+  color: #fff;
+  background-color: #000;
+  padding-right:1rem;
+  padding-left:1rem;
+}
+
+.exampleimg{
+  width:50rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* footersection */
+footer {
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+.row{
+  padding-left: auto;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+
+
+.secondform{
+  padding-left: 100px;
+}
+
+p{
+  padding-right: 10px;
+}
+
+.shortcsreen {
+  margin-bottom: 40px;
+}
+
+.lastbtn{
+  padding-right: 3.25rem;
+}
+
+
+/*posts*/
+.logreg{
+margin-left: 1rem;
+}
+
+.logregform{
+  margin: auto;
+}
+
+.headoflogreg{
+  text-align: center;
+  padding-bottom: 2rem;
+}
+@media (max-width: 991px){
+  .mmargin{
+    margin-left: 3.25rem;
+  }
+}

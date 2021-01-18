@@ -1,0 +1,41 @@
+<%- include("header"); -%>
+
+<div class="contaier-fluid ">
+	<div class="box ">
+	 	<h2>StoryAPI</h2>
+	    <hr>
+	    <p> StoryAPI is a REST API that serves uniformly and well formatted stories . It can be used without any API token,   membership, registration or payment.
+	    It supports a filters that can be applied to get just the right story you need based on story name.
+	    The usage is very simple and similar to other RESTful APIs and requires only basic knowledge of HTTP requests and JSON.
+	    </p>
+	</div>
+	<div class="box ">
+		<h3>Getting Started:</h3>
+		<hr>
+		<p>There are 4 main things in API endpoints, path, parameter and authentication. StoryAPI doesn't require any authentication to use it. </p>
+		
+		<div class="codediv"> 
+			<p><b> ENDPOINT:</b>An endpoint is an access point to send the HTTP requests to and get your response.</p>
+			<p> <b>Endpoint: </b> <span class="codelike">http://localhost:3000 </span>  </p>
+
+		</div> 
+		<div class="codediv">
+			<p><b>PATH:</b> This will give all the stories present.</p>
+			<p><b>Path: </b> <span class="codelike">http://localhost:3000/story </span></p>
+			<center><img class="exampleimg" src="images/allpoem.png" alt="allpoemexample" ></center>
+		</div>
+		<div class="codediv"> 
+			<p><b>PARAMETER</b>This will give you story based on story name you give. Make sure that story name are written as it would appear in wekipedia. For example in this the story name we entered is "The Elephant Rope".</p>
+			<p><b>Parameter: </b>  <span class="codelike">http://localhost:3000/story/The Elephant Rope </span></p>
+			<center><img class="exampleimg" src="images/allpoem.png" alt="allpoemexample" ></center>
+		</div>
+	   
+	</div>
+	<div class="box">
+		<h3>Post Here</h3>
+		<hr></hr>
+		<p>If you like to contribute your favourite story and see others using it please click the button below, make sure that story name are written as it would appear in wekipedia.  </p>
+  		<a class="nav-link" href="/poststoryr"><button type="button" class="mmargin btn btn-dark  " ><i class="fas fa-user-plus"></i> post story</button></a>
+  	</div>
+<%- include("footer"); -%>
+

@@ -1,0 +1,41 @@
+<%- include("header"); -%>
+
+<div class="contaier-fluid ">
+	<div class="box ">
+	 	<h2>DialogueAPI</h2>
+	    <hr>
+	    <p> DialogueAPI is a REST API that serves uniformly and well formatted dialogue . It can be used without any API token,   membership, registration or payment.
+	    It supports a filters that can be applied to get just the right dialogue you need based on  movie or series name.
+	    The usage is very simple and similar to other RESTful APIs and requires only basic knowledge of HTTP requests and JSON.
+	    </p>
+	</div>
+	<div class="box ">
+		<h3>Getting Started:</h3>
+		<hr>
+		<p>There are 4 main things in API endpoints, path, parameter and authentication. DialogueAPI doesn't require any authentication to use it. </p>
+		
+		<div class="codediv"> 
+			<p><b> ENDPOINT:</b>An endpoint is an access point to send the HTTP requests to and get your response.</p>
+			<p> <b>Endpoint: </b> <span class="codelike">http://localhost:3000 </span>  </p>
+
+		</div> 
+		<div class="codediv">
+			<p><b>PATH:</b> This will give all the dialogue present.</p>
+			<p><b>Path: </b> <span class="codelike">http://localhost:3000/dialogue </span></p>
+			<center><img class="exampleimg" src="images/alldia.png" alt="alldiaexample" ></center>
+		</div>
+		<div class="codediv"> 
+			<p><b>PARAMETER</b>This will give give you dialogue based on movie or series name you give. Make sure that movie or series name are written as it would appear in wekipedia. For example in this the movie or series name we entered is "Harry Potter".</p>
+			<p><b>Parameter: </b>  <span class="codelike">http://localhost:3000/dialogue/Harry Potter </span></p>
+			<center><img class="exampleimg" src="images/alldia.png" alt="alldiaexample" ></center>
+		</div>
+	   
+	</div>
+	<div class="box">
+		<h3>Post Here</h3>
+		<hr></hr>
+		<p>If you like to contribute your favourite dialogue and see others using it please click the button below, make sure that movie or series name are written as it would appear in wekipedia.  </p>
+  		<a class="nav-link" href="/postdialoguer"><button type="button" class="mmargin btn btn-dark  " ><i class="fas fa-user-plus"></i> post dialogue</button></a>
+  	</div>
+<%- include("footer"); -%>
+
