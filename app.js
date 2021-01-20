@@ -65,9 +65,9 @@ app.route("/poems")
   });
   newPoem.save(function(err){
     if(!err){
-      res.send("Submitted Successfully");
+      res.sendFile(__dirname+"/success.html");
     }else{
-      res.send(err);
+      res.sendFile(__dirname+"/failure.html");
     }
   });
 });
@@ -175,9 +175,9 @@ app.route("/dialogue")
   });
   newDialogue.save(function(err){
     if(!err){
-      res.send("Submitted Successfully");
+      res.sendFile(__dirname+"/success.html");
     }else{
-      res.send(err);
+      res.sendFile(__dirname+"/failure.html");
     }
   });
 });
@@ -233,9 +233,9 @@ app.route("/story")
   });
   newStory.save(function(err){
     if(!err){
-      res.send("Submitted Successfully");
+      res.sendFile(__dirname+"/success.html");
     }else{
-      res.send(err);
+      res.sendFile(__dirname+"/failure.html");
     }
   });
 });

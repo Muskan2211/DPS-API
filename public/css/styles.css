@@ -11,7 +11,7 @@ a:hover   {color:#A683E3;}
 
 /* heading of the page */
 .headers {
-  background-color: #46b3e6;
+  background-color: #222831;
   margin: auto -16px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   padding-right: 3.25rem;
@@ -22,7 +22,7 @@ a:hover   {color:#A683E3;}
   color: white;
   font-family: "McLaren", cursive;
   font-weight: 200;
-  padding-left: 3.25rem;
+  padding-left: 1rem;
 }
 
 
@@ -34,9 +34,6 @@ a:hover   {color:#A683E3;}
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
   padding: 1rem;
 }
-
-
-/*poem*/
 
 .codelike{
   color: #fff;
@@ -50,6 +47,7 @@ a:hover   {color:#A683E3;}
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+
 
 /* footersection */
 footer {
